@@ -1,3 +1,15 @@
+# Download Orbot VPN
+
+https://play.google.com/store/apps/details?id=org.torproject.android
+
+# Download My Mobile Secure VPN
+
+https://play.google.com/store/apps/details?id=com.voicefive.mms
+
+# Download Termux
+
+https://github.com/termux/termux-app
+
 # termux-start
 
 pkg i git -y
