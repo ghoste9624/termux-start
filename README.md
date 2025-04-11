@@ -118,3 +118,22 @@ termux-exec
 termux-tools 
 termux-keyring
 google
+
+# termux extra keys and blinking cursor
+
+nano ~/.termux/termux.properties
+
+▪︎Add the following to the bottom of the file, save and exit.
+
+
+terminal-cursor-blink-rate=500
+
+extra-keys = [ \
+ ['ESC','/','-','HOME','UP','END','PGUP','BKSP'], \
+ ['TAB','CTRL','ALT','LEFT','DOWN','RIGHT','PGDN','ENTER'] \
+]
+
+
+▪︎Reload settings to make changes 
+
+termux-reload-settings 
