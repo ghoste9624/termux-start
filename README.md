@@ -26,9 +26,12 @@ pkg i git -y
 
 git clone https://github.com/ghoste9624/termux-start
 
+cd termux-start
+
 chmod +x termux-start
 
-./termux-start
+bash termux-start
+
 
 # packages
 
