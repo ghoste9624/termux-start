@@ -6,9 +6,17 @@ https://play.google.com/store/apps/details?id=org.torproject.android
 
 https://play.google.com/store/apps/details?id=com.voicefive.mms
 
+# Download F-Droid 
+
+https://f-droid.org/packages/com.termux/
+
 # Download Termux
 
 https://github.com/termux/termux-app
+
+# Termux Playstore Version 
+
+https://play.google.com/store/apps/details?id=com.termux
 
 # termux-start
 
