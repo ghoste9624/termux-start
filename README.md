@@ -150,15 +150,25 @@ nano ~/.termux/colors.properties
 
 
 background=#000000
+
 foreground=#00FFFF
+
 cursor=#00FF00
+
 color0=#000000
+
 color1=#FF0000
+
 color2=#00FF00
+
 color3=#FFFF00
+
 color4=#0000FF
+
 color5=#FF00FF
+
 color6=#00FFFF
+
 color7=#FFFFFF
 
 
