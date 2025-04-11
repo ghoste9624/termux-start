@@ -20,6 +20,8 @@ https://play.google.com/store/apps/details?id=com.termux
 
 # termux-start
 
+pkg update && pkg upgrade -y
+
 pkg i git -y
 
 git clone https://github.com/ghoste9624/termux-start
