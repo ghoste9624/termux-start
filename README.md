@@ -137,3 +137,32 @@ extra-keys = [ \
 ▪︎Reload settings to make changes 
 
 termux-reload-settings 
+
+# termux colors
+
+▪︎256 ANSI Color Codes
+
+https://hexdocs.pm/color_palette/ansi_color_codes.html
+
+nano ~/.termux/colors.properties
+
+▪︎Add the following,save and exit.
+
+
+background=#000000
+foreground=#00FFFF
+cursor=#00FF00
+color0=#000000
+color1=#FF0000
+color2=#00FF00
+color3=#FFFF00
+color4=#0000FF
+color5=#FF00FF
+color6=#00FFFF
+color7=#FFFFFF
+
+
+▪︎Reload settings to make changes 
+
+termux-reload-settings 
+
