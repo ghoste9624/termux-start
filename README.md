@@ -22,7 +22,7 @@ https://play.google.com/store/apps/details?id=com.termux
 
 pkg update && pkg upgrade -y
 
-pkg i git -y
+pkg install git -y
 
 git clone https://github.com/ghoste9624/termux-start
 
