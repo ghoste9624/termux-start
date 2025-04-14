@@ -21,6 +21,9 @@ https://play.google.com/store/apps/details?id=com.termux
 # termux-start
 
 
+cd $HOME
+
+rm -rf tstyle
 
 pkg i git -y
 
