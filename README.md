@@ -116,6 +116,7 @@ termux-exec
 termux-tools 
 termux-keyring
 google
+requests
 
 # termux extra keys and blinking cursor
 
