@@ -20,7 +20,7 @@ clear && echo -e "
 pkg --check-mirror update
  
 echo -e "
-   \e[3m\e[1;96mchange repositories? "
+  \e[3m\e[1;96mchange repositories? "
 
 read -n 1 -s -r -p "
 Press any key to continue..."
@@ -38,7 +38,7 @@ pip install google requests setuptools
 pkg update && pkg upgrade -y && apt autoclean && apt autoremove -y
  
 clear && echo -e "
-   \e[3m\e[1;91msecurity check...
+   \e[3m\e[1;91msecurity check...\e[0m\e[1;91m
 "
 
 date
@@ -46,6 +46,8 @@ date
 echo -e "\e[1;91m"
 
 curl ipinfo.io; curl -L tacs-sys.com | grep -i illusion
+
+echo -e "\e[3m\e[1;91m"
 
 read -n 1 -s -r -p "
 Press any key to continue...
