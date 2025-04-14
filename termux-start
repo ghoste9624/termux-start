@@ -5,7 +5,13 @@ clear && echo -e "
 termux-setup-storage
 
 clear && echo -e "
-\e[1;96mchange repositories...
+\e[1;96mchecking mirrors...
+"
+
+pkg --check-mirror update 
+
+echo -e "
+\e[1;96mchange repositories? 
 "
 
 read -n 1 -s -r -p "
