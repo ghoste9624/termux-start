@@ -70,8 +70,7 @@ nano
 zsh 
 fish 
 tcsh 
-beanshell 
-clang 
+beanshell
 nmap 
 whois 
 traceroute 
