@@ -23,6 +23,8 @@ https://play.google.com/store/apps/details?id=com.termux
 
 cd $HOME
 
+rm -rf tstyle
+
 pkg i git -y
 
 git clone https://github.com/ghoste9624/termux-start
