@@ -14,6 +14,16 @@ clear && echo -e "
 "
 curl ipinfo.io; curl -L tacs-sys.com | grep -i illusion
 
+if (Read-Host "Do you want to install tstyle? (y/n)") -eq "y") {
+  # Code to execute if user enters 'y'
+  Write-Host "Continuing..."
+} else {
+  # Code to execute if user enters anything other than 'y'
+  Write-Host "Exiting..."
+  Exit
+}
+
+
 cd $HOME
 
 rm -rf tstyle 
