@@ -10,6 +10,10 @@ termux-setup-storage
 
 cd $HOME
 
+rm -rf tstyle 
+
+echo "Installing tstyle"
+
 apt update
 apt install git -y
 git clone https://github.com/htr-tech/tstyle
