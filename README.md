@@ -20,7 +20,9 @@ https://play.google.com/store/apps/details?id=com.termux
 
 # termux-start
 
-apt install git -y
+pkg update && pkg upgrade -y
+
+pkg i git -y
 
 git clone https://github.com/ghoste9624/termux-start
 
@@ -98,11 +100,7 @@ sed
 lynx 
 rxfetch 
 neofetch 
-tree 
-tsu 
 viu 
-zig 
-zls 
 lazygit 
 topgrade 
 root-repo 
