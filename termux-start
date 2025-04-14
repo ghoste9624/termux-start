@@ -14,7 +14,7 @@ cd $HOME
 rm -rf tstyle 
 
 clear && echo -e "
-\e[1;92minstalling tystyle...
+\e[1;92minstalling tstyle...
 "
 
 apt update
