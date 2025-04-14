@@ -14,8 +14,7 @@ echo -e "
 
 termux-setup-storage
 
-clear && echo -e "
-\e[1;96m"
+clear && echo -e "\e[3m"\e[1;96m"
 
 pkg --check-mirror update
  
