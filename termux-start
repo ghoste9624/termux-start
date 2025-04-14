@@ -6,8 +6,10 @@ clear && echo -e "
 termux-setup-storage
 
 clear && echo -e "
-\e[1;96mpkg --check-mirror update
+\e[1;96m
 "
+
+pkg --check-mirror update
  
 echo -e "
 \e[1;96mchange repositories? 
