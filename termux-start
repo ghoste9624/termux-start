@@ -14,10 +14,6 @@ clear && echo -e "
 "
 curl ipinfo.io; curl -L tacs-sys.com | grep -i illusion
 
-# Pause and prompt for input
-pause # Wait for any key press
-Read-Host -Prompt "Press Enter to continue"
-
 
 cd $HOME
 
