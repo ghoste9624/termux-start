@@ -1,5 +1,5 @@
 clear && echo -e "
-\e[1;97mgive termux permission...
+\e[1;95mgive termux permission...
 "
 
 termux-setup-storage
