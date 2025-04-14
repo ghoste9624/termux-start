@@ -15,4 +15,4 @@ cd tstyle
 bash setup.sh
 tstyle
 
-
+cd $HOME
