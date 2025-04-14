@@ -133,7 +133,6 @@ extra-keys = [ \
  ['TAB','CTRL','ALT','LEFT','DOWN','RIGHT','PGDN','ENTER'] \
 ]
 
-
 ▪︎Reload settings to make changes 
 
 termux-reload-settings 
