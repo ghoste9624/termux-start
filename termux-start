@@ -1,10 +1,15 @@
 clear && echo -e "
 \e[1;95mgive termux storage permissions...
-\e[1;92m
+\e[0;0m
 "
-df -h
 
 date
+
+echo -e " 
+\e[1;92m
+"
+
+df -h
 
 echo -e " 
 \e[0m
