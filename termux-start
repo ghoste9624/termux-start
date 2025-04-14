@@ -1,5 +1,5 @@
 clear && echo -e "
-\e[1;93give termux permission...
+\e[1;97give termux permission...
 "
 
 termux-setup-storage
@@ -39,7 +39,7 @@ cd $HOME
 rm -rf tstyle 
 
 clear && echo -e "
-\e[1;92minstalling tstyle...
+\e[1;93minstalling tstyle...
 "
 
 apt update
