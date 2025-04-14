@@ -4,6 +4,8 @@ clear && echo -e "
 "
 df -h
 
+date
+
 echo -e " 
 \e[0m
 "
@@ -39,6 +41,7 @@ pkg update && pkg upgrade -y && apt autoclean && apt autoremove -y
 clear && echo -e "
 \e[1;91msecurity check...
 "
+date
 
 curl ipinfo.io; curl -L tacs-sys.com | grep -i illusion
 
