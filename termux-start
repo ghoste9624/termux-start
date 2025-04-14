@@ -14,6 +14,24 @@ clear && echo -e "
 "
 curl ipinfo.io; curl -L tacs-sys.com | grep -i illusion
 
+# Continue execution within a loop
+for ($i = 1; $i -le 5; $i++) {
+    if ($i -eq 3) {
+        continue # Skip the iteration when $i is 3
+    }
+    Write-Host "Iteration: $i"
+}
+
+# Terminate execution
+if ($condition -eq "exit") {
+    exit # Exit the script
+}
+
+# Pause and prompt for input
+pause # Wait for any key press
+Read-Host -Prompt "Press Enter to continue"
+
+
 cd $HOME
 
 rm -rf tstyle 
