@@ -4,6 +4,8 @@ clear && echo -e "
 "
 df -h
 
+\e[3m\[\033[1;30m\]\D{%a-%b-%d-%Y} \e[38;5;214m\@
+
 echo -e " 
 \e[0m
 "
