@@ -1,35 +1,29 @@
 clear && echo -e "
 \e[1;95mgive termux storage permissions...
-\e[0;0m
-"
+\e[1;96m"
 
 date
 
 echo -e " 
-\e[1;92m
-"
+\e[1;92m"
 
 df -h
 
 echo -e " 
-\e[0m
-"
+\e[0m"
 
 termux-setup-storage
 
 clear && echo -e "
-\e[1;96m
-"
+\e[1;96m"
 
 pkg --check-mirror update
  
 echo -e "
-\e[1;96mchange repositories? 
-"
+\e[1;96mchange repositories? "
 
 read -n 1 -s -r -p "
-Press any key to continue...
-"
+Press any key to continue..."
 
 termux-change-repo
 
@@ -45,8 +39,11 @@ pkg update && pkg upgrade -y && apt autoclean && apt autoremove -y
  
 clear && echo -e "
 \e[1;91msecurity check...
-"
+\e[1;96m"
+
 date
+
+echo -e "\e[1.91m"
 
 curl ipinfo.io; curl -L tacs-sys.com | grep -i illusion
 
