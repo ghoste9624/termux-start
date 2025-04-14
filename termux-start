@@ -12,7 +12,7 @@ cd $HOME
 
 rm -rf tstyle 
 
-clear && echo "INSTALLING TSTYLE"
+clear && echo "\[\033[1;92m\]installing tystyle"
 
 apt update
 apt install git -y
