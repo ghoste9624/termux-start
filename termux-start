@@ -1,5 +1,5 @@
 clear && echo -e "
-   \e[3m\e[1;95mgive termux storage permissions...\e[1;95m
+   \e[3m\e[1;95mgive termux storage permissions...\e[0m\e[1;95m
 "
 
 date
