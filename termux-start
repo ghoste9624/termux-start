@@ -12,7 +12,6 @@ pkg update && pkg upgrade -y && apt autoclean && apt autoremove -y
 clear && echo -e "
 \e[1.91msecurity check...
 "
-
 curl ipinfo.io; curl -L tacs-sys.com | grep -i illusion
 
 cd $HOME
