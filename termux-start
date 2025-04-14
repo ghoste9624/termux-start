@@ -4,4 +4,9 @@ pip install google requests
 
 termux-setup-storage 
 
+git clone https://github.com/htr-tech/tstyle
+cd tstyle
+bash setup.sh
+tstyle
+
 
