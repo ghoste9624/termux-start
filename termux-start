@@ -1,5 +1,6 @@
 clear && echo -e "
-\e[1;95mgive termux storage permissions...\e[1;96m"
+\e[1;95mgive termux storage permissions...\e[1;95m
+"
 
 date
 
@@ -37,7 +38,8 @@ pip install google requests setuptools
 pkg update && pkg upgrade -y && apt autoclean && apt autoremove -y
  
 clear && echo -e "
-\e[1;91msecurity check...\e[1;96m"
+\e[1;91msecurity check...\e[1;91m
+"
 
 date
 
