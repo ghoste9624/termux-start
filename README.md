@@ -22,7 +22,8 @@ https://play.google.com/store/apps/details?id=com.termux
 
 
 ```
-pkg i git -y
+##
+<tab><tab>pkg i git -y
 
 git clone https://github.com/ghoste9624/termux-start
 
