@@ -21,9 +21,8 @@ https://play.google.com/store/apps/details?id=com.termux
 # termux-start
 
 
-##
-
-<tab><tab>code/pkg i git -y
+```
+pkg i git -y
 
 git clone https://github.com/ghoste9624/termux-start
 
@@ -32,7 +31,7 @@ cd termux-start
 chmod +x termux-start
 
 bash termux-start
-
+```
 
 
 # packages
